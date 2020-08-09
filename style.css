@@ -1,9 +1,56 @@
-#grid-container {
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: lightgray;
+
+}
+
+#header {
     display: flex;
     flex-direction: column;
-    width: 80vmin;
-    height: 80vmin;
-    box-shadow: slategray;
+    color: firebrick;
+    background-color: darkslategrey;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 10rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 1rem;
+ 
+}
+#header>h2 {
+    color: goldenrod;
+    text-decoration: underline;
+}
+#odinLink {
+    justify-self: flex-end;
+    align-self: center;
+}
+
+#content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: darkslategray;
+    border-width: 1rem;
+    border-radius: 1rem;
+}
+
+
+
+#utility-container>div{
+    margin: 1rem;
 }
 
 .row {
@@ -12,6 +59,6 @@
 
 }
 
-.square{
-    display: inline-block
+label {
+    font-weight: bold;
 }
