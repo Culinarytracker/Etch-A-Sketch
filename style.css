@@ -1,0 +1,17 @@
+#grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vmin;
+    height: 80vmin;
+    box-shadow: slategray;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.square{
+    display: inline-block
+}
